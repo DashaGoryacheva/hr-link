@@ -1,0 +1,55 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
+    />
+    <title>Тестовое задание</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1>Войти в HR-Link</h1>
+    </header>
+    <div class="main">
+      <div class="main__image">
+        <img src="./img.jpg" alt="log-in-picture" />
+      </div>
+      <form class="main__form" method="post">
+        <div class="login-block">
+          <div class="input-name">Email/Телефон/WhatsApp</div>
+          <div class="block__input">
+            <input
+              class="input_value"
+              type="text"
+              name="Email/Телефон/WhatsApp"
+              value="mars@gmail.com"
+            />
+          </div>
+        </div>
+        <div class="password-block">
+          <div class="password-block-name">
+            <div class="input-name">Пароль</div>
+            <a class="password-block__link">Не знаете пароль?</a>
+          </div>
+          <div class="password-block__input">
+            <input class="input_value" type="password" value="password" />
+            <i class="far fa-eye" id="togglePassword"></i>
+          </div>
+        </div>
+       
+          <button class="button" >
+          <span class="button-name">Войти</span>
+          <i class="fas fa-arrow-right" id="arrow-right"></i>
+      </form>
+    </div>
+    <footer class="footer">Copyright © 2023 HR-Link</footer>
+  </body>
+</html>
