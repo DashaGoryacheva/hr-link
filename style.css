@@ -3,7 +3,7 @@ body {
   margin: 0 auto;
 }
 .header {
-  font-family: "Montserrat", Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
   margin: 20px 0 40px 0;
 }
@@ -21,14 +21,15 @@ img {
 }
 .fa-arrow-right {
   color: #fff;
-  padding-right: 2px;
+  padding-right: 10px;
 }
+
 .button {
   display: flex;
   justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
-  background-color: #054ada;
+  background-color: #3000dc;
   height: 40px;
   width: 100%;
   border: none;
@@ -38,7 +39,7 @@ img {
 .button-name {
   color: #fff;
   text-align: left;
-  padding-left: 16px;
+  padding-left: 10px;
 }
 .password-block-name {
   display: flex;
@@ -46,7 +47,7 @@ img {
   padding: 22px 0 6px 0;
 }
 .password-block__link {
-  color: #054ada;
+  color: #3000dc;
   text-decoration: none;
   cursor: pointer;
 }
@@ -59,13 +60,19 @@ img {
   height: 20px;
   border: 10px solid #f2f4f8;
   background-color: #f2f4f8;
-  cursor: pointer;
+  cursor: text;
   padding: 10px 6px;
 }
 .footer {
   color: #767676;
   font-size: 12px;
-  margin: 50px 0;
+}
+.push {
+  margin-top: 50px;
+}
+.push,
+.footer {
+  height: 50px;
 }
 .login-block__input .input-name {
   padding-bottom: 6px;
@@ -76,8 +83,9 @@ img {
   border-bottom: 1px solid #bdbaba;
   background-color: #f2f4f8;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
+  /* padding-right: 6px; */
 }
 .input_value:focus {
   outline: none;
@@ -85,7 +93,7 @@ img {
 }
 
 .far {
-  margin-right: 8px;
+  margin-right: 16px;
   color: #767676;
   font-size: 14px;
   cursor: pointer;
@@ -130,4 +138,9 @@ img {
   .password-block__link {
     font-size: 12px;
   }
+  /* .footer {
+    color: #767676;
+    font-size: 10px;
+    margin: 50px 0 0 0;
+  } */
 }
