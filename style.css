@@ -139,4 +139,8 @@ img {
   .login-form__button-name {
     font-size: 11px;
   }
+  .footer {
+    color: #767676;
+    font-size: 10px;
+  }
 }
