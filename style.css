@@ -75,7 +75,7 @@ img {
   font-size: 12px;
   position: fixed;
   bottom: 0;
-  padding: 20px 0;
+  padding-top: 40px;
 }
 
 .far {
@@ -101,11 +101,14 @@ img {
   .login-form__input {
     font-size: 12px;
   }
-  .password-block__link {
+  .login-form__password-link {
     font-size: 14px;
   }
+  .login-form__button-name {
+    font-size: 12px;
+  }
   .login-form__input-title,
-  .password-block__link {
+  .login-form__password-link {
     padding-bottom: 10px;
   }
   body {
@@ -128,8 +131,9 @@ img {
   .login-form__input {
     font-size: 10px;
   }
-  .login-form__password-link {
-    font-size: 12px;
+  .login-form__password-link,
+  .login-form__button-name {
+    font-size: 11px;
   }
   /* .footer {
     color: #767676;
