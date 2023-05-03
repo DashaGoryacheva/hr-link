@@ -73,11 +73,9 @@ img {
 .footer {
   color: #767676;
   font-size: 12px;
-}
-
-.push,
-.footer {
-  height: 50px;
+  position: fixed;
+  bottom: 0;
+  padding: 20px 0;
 }
 
 .far {
